@@ -50,3 +50,8 @@ div {
     color: white;
     background: #00BF19 !important;
 }
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
