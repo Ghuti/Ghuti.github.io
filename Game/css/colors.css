@@ -1,0 +1,38 @@
+.blanc {
+    background-color: #f5f5f5;
+}
+
+.blanc-sombre {
+    background-color: #999999;
+}
+
+.rouge {
+    background-color: #fe0101;
+}
+
+.vert {
+    background-color: #00BF19;
+}
+
+.jaune {
+    background-color: #FEFE01;
+}
+
+.bleu {
+    background-color: #017FFE;
+}
+
+.violet {
+    background-color: #AA01FE;
+}
+
+
+
+#email, #nom, #submit {
+    color: black;
+}
+
+.gome {
+    color: white;
+    background: red;
+}
