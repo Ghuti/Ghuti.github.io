@@ -32,7 +32,7 @@ button:hover {
 }
 
 
-body > p {
+p {
     margin: 10px;
     padding-bottom: 10px;
     font-size: 16px;
@@ -46,7 +46,7 @@ div {
     background: #529BEF;
 }
 
-footer > .gome {
+.gome {
     color: white;
     background: #00BF19 !important;
 }
