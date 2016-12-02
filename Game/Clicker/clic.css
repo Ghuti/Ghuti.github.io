@@ -48,7 +48,7 @@ div {
 
 .gome {
     color: white;
-    background: #00BF19 !important;
+    background: #00BF19 ;
 }
 
 a:link 
@@ -60,4 +60,5 @@ img {
     background: transparent;
     float: right;
 }
+
 
