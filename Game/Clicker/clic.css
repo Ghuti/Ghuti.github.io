@@ -55,3 +55,8 @@ a:link
 { 
  text-decoration:none; 
 } 
+
+img {
+    background: transparent;
+    float: right;
+}
