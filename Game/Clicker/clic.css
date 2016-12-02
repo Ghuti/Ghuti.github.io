@@ -32,7 +32,7 @@ button:hover {
 }
 
 
-p {
+body > div > div > p {
     margin: 10px;
     padding-bottom: 10px;
     font-size: 16px;
