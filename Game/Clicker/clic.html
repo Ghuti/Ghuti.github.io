@@ -39,23 +39,26 @@
     </script> -->
     
     
-		<button id="b3"> Light/Night </button>
+		<button id="b3"> light</button>
     
     <script>
 		var b3 = document.getElementById("b3");
 		var test = document.getElementById("test");
 		var teste = document.getElementById("teste");
+		
 		blop = 0;
 		b3.onclick = function() {
 			if (blop == 0) {
 				test.style.background = "#003A7C";
 				teste.style.background = "#003A7C";
 				blop = blop += 1;
+				b3.innerHTML = "night";
 			}
 			else {
 				test.style.background = "#fff";
 				teste.style.background = "#fff";
 				blop = blop -= 1;
+				b3.innerHTML = "light";
 			} 
 		}
     </script>
