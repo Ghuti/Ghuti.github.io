@@ -1,10 +1,10 @@
 <!DOCTYPEhtml>
-<htlm>
+<html id="test">
     <head>
         <title>clicker game</title>
         <link href="clic.css" rel="stylesheet">
     </head>
-    <body>
+    <body id="teste">
         <div class="contain">
             <div id="score">
 			    <p>0</p>
@@ -25,14 +25,30 @@
 	    </div>
 	<script src="clic.js"></script>
     
-  <footer>
+  <footer id="testa">
     <div class="gome">
       <a href="https://ghuti.github.io/Game/game.html">
       	<img src="arrow02.png">
         <p class="gome">RETURN IN THE GAME MENU</p>
       </a>
     </div>
+    
+	<button id="b3"> test </button>
+    
+    <script>
+		var b3 = document.getElementById("b3");
+		var test = document.getElementById("test");
+		var teste = document.getElementById("teste");
+		var testa = document.getElementById("testa");
+		
+		b3.onclick = function() {
+			test.style.background = "white";
+			teste.style.background = "white";
+			testa.style.background = "white";
+		}
+    </script>
   </footer>
+  
   
     </body>
 </htlm>
