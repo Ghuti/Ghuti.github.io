@@ -25,7 +25,7 @@
 	    </div>
 	<script src="clic.js"></script>
 	
-		<button id="b3"> test </button>
+	<!--	<button id="b3"> test </button>
     
     <script>
 		var b3 = document.getElementById("b3");
@@ -35,8 +35,34 @@
 		b3.onclick = function() {
 			test.style.background = "#003A7C";
 			teste.style.background = "#003A7C";
+		};
+    </script> -->
+    
+    
+		<button id="b3"> test2 </button>
+    
+    <script>
+		var b3 = document.getElementById("b4");
+		var test = document.getElementById("test");
+		var teste = document.getElementById("teste");
+		blop = 0;
+		b3.onclick = function() {
+			if (blop == 0) {
+				test.style.background = "#003A7C";
+				teste.style.background = "#003A7C";
+				blop = blop += 1;
+			}
+			else {
+				test.style.background = "#fff";
+				teste.style.background = "#fff";
+				blop = blop -= 1;
+			} 
 		}
     </script>
+    
+    
+    
+    
     
   <footer class="gome">
     <div>
