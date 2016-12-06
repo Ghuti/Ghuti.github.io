@@ -47,20 +47,19 @@ p {
 
 a:link 
 { 
- text-decoration:none; 
+ text-decoration:none;
 } 
 
 img {
     background: transparent;
     float: right;
-    margin-right: 10px;
 }
 
-
-footer {
-    height: 80px;
-}
 
 #b3 {
     margin: auto;
+}
+
+.game {
+    height: 80px;
 }
