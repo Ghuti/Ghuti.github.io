@@ -1,4 +1,7 @@
-/*
+ body {
+    background: #fff;
+}
+
 .contain {
     position: relative;
     color: #575e72;
@@ -58,4 +61,4 @@ img {
     float: right;
 }
 
-*/
+
