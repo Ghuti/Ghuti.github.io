@@ -6,8 +6,8 @@ buttonClic = document.querySelector("#buttonClic");
 buttonMult = document.querySelector("#buttonMult");
 buttonAutoclic = document.querySelector("#buttonAutoclic");
 //buttonsuperb = document.querySelector("#buttonsuperb");
-
-
+var s1 = document.getElementById("s1");
+var scor = document.getElementById("scor");
 // Default values
 score = 0;
 countMultiplicator = 1;
@@ -15,6 +15,7 @@ countAutoclic = 0;
 //countsuperb = 0;
 priceMultiplicator = 10;
 priceAutoclic = 20;
+suc = 0
 //pricesuperb = 100;
 
 //show
@@ -47,6 +48,23 @@ function incrementScore() {
 function autoclicScore() {
 	score += countAutoclic;
 	showScore() ;
+	if(score >= 1000) {
+		if(suc == 0) {
+			score += 500;
+			suc += 1;
+			alert("Sucses: you win 500 pts");
+		}
+	}
+	if(score >= 5000) {
+		if(suc == 1) {
+			score += 1000;
+			suc += 1;
+			countAutoclic += 1;
+			alert("Sucses: you win 1000 pts and 1 autoclic");
+			showAutoclic() ;
+		}
+	}
+	scor.innerHTML = score + ": pts-clicker game";
 }
 
 /*function superbScore() {
@@ -108,8 +126,18 @@ function superbPrice() {
 }
 */
 
+/*s1 = function() {
+	if(score >= 1000) {
+		if(suc == 0) {
+			score += 500;
+			suc += 1;
+			alert("Sucses: you win 500 pts");
+		}
+	}
+}*/
 
 
+//setInterval(s1, 1000);
 setInterval(autoclicScore, 1000) ;
 //setInterval(superbScore, 1000);
 showScore();
