@@ -1,5 +1,7 @@
 <!DOCTYPEhtml>
 <html id="test">
+	
+
     <head>
     	<link rel="icon" type="image/png" href="favicon.jpg" />
         <title id="scor">clicker game</title>
@@ -39,6 +41,7 @@
 		};
     </script> -->
     
+   /* button color */
     
 		<button id="b3"> light</button>
     
@@ -50,20 +53,31 @@
 		blop = 0;
 		b3.onclick = function() {
 			if (blop == 0) {
-				test.style.background = "#003A7C";
-				teste.style.background = "#003A7C";
+				test.style.background = "#20832A"; //#003A7C
+				teste.style.background = "#20832A"; //#003A7C
 				blop = blop += 1;
 				b3.innerHTML = "night";
 			}
 			else {
-				test.style.background = "#fff";
-				teste.style.background = "#fff";
+				test.style.background = "#3FC4C0"; //#fff
+				teste.style.background = "#3FC4C0"; //#fff
 				blop = blop -= 1;
 				b3.innerHTML = "light";
 			} 
 		}
     </script>
     
+    /* Animation Snow */
+    
+	<script src="snow.js"></script>
+    		<script type="text/javascript">
+			window.onload = function(){
+				snow.init(10);
+			};
+	</script>
+		
+    
+ 
     
     
     

@@ -1,4 +1,6 @@
-
+body {
+    background: #3FC4C0 ;
+}
 .contain {
     position: relative;
     color: #575e72;
@@ -62,4 +64,8 @@ img {
 
 .game {
     height: 80px;
+}
+
+footer {
+    bottom: 0;
 }
