@@ -1,8 +1,7 @@
 <!DOCTYPEhtml>
 <html id="test">
-	
-
-    <head>
+	 <head>
+    	<meta charset="UTF-8">
     	<link rel="icon" type="image/png" href="favicon.jpg" />
         <title id="scor">clicker game</title>
         <link href="clic.css" rel="stylesheet">
@@ -41,7 +40,7 @@
 		};
     </script> -->
     
-   /* button color */
+   <!-- button color -->
     
 		<button id="b3"> light</button>
     
@@ -53,8 +52,8 @@
 		blop = 0;
 		b3.onclick = function() {
 			if (blop == 0) {
-				test.style.background = "#20832A"; //#003A7C
-				teste.style.background = "#20832A"; //#003A7C
+				test.style.background = "#003A7C"; //#003A7C
+				teste.style.background = "#003A7C"; //#003A7C
 				blop = blop += 1;
 				b3.innerHTML = "night";
 			}
@@ -67,7 +66,7 @@
 		}
     </script>
     
-    /* Animation Snow */
+    <!-- Animation Snow -->
     
 	<script src="snow.js"></script>
     		<script type="text/javascript">
@@ -75,6 +74,48 @@
 				snow.init(10);
 			};
 	</script>
+	
+	
+	<!-- decompte -->
+		
+			
+	<audio autoplay loop><source src="nowel.mp3" type="audio/mpeg"></audio>
+		<div class="decompte">
+			<div>
+				<h1>Noël</h1>
+				<div class="counter">
+					<span class="d"></span>
+					<span class="h"></span>
+					<span class="m"></span>
+					<span class="s"></span>
+				</div>
+			</div>
+		</div>
+	
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script>
+			var target = new Date(2016, 11, 24, 0, 0, 0, 0);
+			function tick() {
+				var now = new Date();
+				var diff = Math.floor((target.getTime() - now.getTime())/1000);
+				
+				var seconds = diff % 60;
+				var minutes = Math.floor(diff%3600 / 60);
+				var hours = Math.floor(diff%86400 / 3600);
+				var days = Math.floor(diff / (60 * 60 * 24));
+				
+				$('.counter .d').html(days);
+				$('.counter .h').html(hours<10?"0"+hours:hours);
+				$('.counter .m').html(minutes<10?"0"+minutes:minutes);
+				$('.counter .s').html(seconds<10?"0"+seconds:seconds);
+			}
+		
+			$(document).ready(function() {
+				window.setInterval(tick, 1000);
+				tick();
+			});
+		</script>
+	</body>
 		
     
  

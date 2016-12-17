@@ -75,13 +75,13 @@ SNOW_Weather();  */
 var snow = {
 
 	wind : 0,
-	maxXrange : 300,
+	maxXrange : 100,
 	minXrange : 10,
 	maxSpeed : 2,
 	minSpeed : 1,
 	color : "#fff",
 	char : "*",
-	maxSize : 50,
+	maxSize : 35,
 	minSize : 8,
 
 	flakes : [],
@@ -149,7 +149,7 @@ var snow = {
 
 	random : function(range, num){
 		var num = num?num:1;
-		return Math.floor(Math.random() * (range + 1) * num) / num;
+		return Math.floor(Math.random() * (range + 2) * num) / num;
 	},
 
 	getSize : function(){

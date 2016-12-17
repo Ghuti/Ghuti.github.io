@@ -66,6 +66,13 @@ img {
     height: 80px;
 }
 
-footer {
-    bottom: 0;
+.decompte {
+    font-size: 50px;
+    color: red;
+    background: #262b37 ;
+    text-align: center;
+}
+
+.counter > span:not(:last-of-type):after {
+	content: " : ";
 }
