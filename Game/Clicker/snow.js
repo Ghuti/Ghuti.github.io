@@ -79,7 +79,7 @@ var snow = {
 	minXrange : 10,
 	maxSpeed : 2,
 	minSpeed : 1,
-	color : "#fff",
+	color : '#' + (Math.random().toString(16) + "000000").substring(2,8),
 	char : "*",
 	maxSize : 35,
 	minSize : 8,
