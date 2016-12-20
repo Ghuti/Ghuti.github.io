@@ -75,12 +75,12 @@ SNOW_Weather();  */
 var snow = {
 
 	wind : 0,
-	maxXrange : 100,
+	maxXrange : 200,
 	minXrange : 10,
-	maxSpeed : 2,
-	minSpeed : 1,
-	color : '#' + (Math.random().toString(16) + "000000").substring(2,8),
-	char : "*",
+	maxSpeed : 1.5,
+	minSpeed : 0.5,
+	color : '#fff', //+ (Math.random().toString(16) + "000000").substring(2,8),
+	char : "❄", //["*"],["❄"],["❅"],["❆"],
 	maxSize : 35,
 	minSize : 8,
 
