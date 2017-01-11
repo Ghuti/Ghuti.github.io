@@ -1,0 +1,54 @@
+body {
+   background: #003A7C;
+}
+
+form {
+    position: relative;
+    color: #575e72;
+    width : 500px;
+    background: #262b37;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    margin: 20px 10px;
+    background: #528BEE;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 16px;
+    text-align: center;
+}
+
+button:hover {
+    background: #FFF;
+    color: #528BEE;
+}
+
+
+div {
+    background: #529BEF;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: fantasy;
+    color: #FFF;
+    line-height: 30px;
+}
+
+.test {
+    background: #529BEF;
+    margin: 10px;
+    width: 10%;
+}
+
+header {
+    background: #262b37;
+    width: 11%;
+}

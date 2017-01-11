@@ -64,7 +64,7 @@ function autoclicScore() {
 			showAutoclic() ;
 		}
 	}
-	scor.innerHTML = score + ": pts-clicker game";
+	score.innerHTML = score + ": pts-clicker game";
 }
 
 /*function superbScore() {
