@@ -1,18 +1,25 @@
 var choise = document.getElementById("choise");
-var button = document.getElementById("button");
+//var button = "button" ;
 reponce = Math.ceil(Math.random()*100); 
 
 var debug = document.getElementById("debug");
 var pm = document.getElementById("pm");
 //var tim = document.getElementById("tim");
 
-//tim = 60;
+var time = 60;
+
+do {
+    time - 1 ;
+    var inter = setInterval('request()', 1000);
+    puis :
+    clearInterval(inter);
+}
+while (time = 0);
 
 function showDebug() {
     debug.innerHTML = reponce;
 }
 
-function verifier() {
     if (choise.value < reponce) {
         pm.innerHTML = "Greater: ";
     }
@@ -23,7 +30,7 @@ function verifier() {
     if (choise.value > reponce) {
         pm.innerHTML = "lower: ";
     }
-}
+
 
 /*function showTime() {
     tim = tim - 1;
@@ -38,4 +45,4 @@ function verifier() {
 //setInterval(showTime, 1000);
 showDebug();
 //showTime();
-button.onclick = verifier;
+//button.onclick = verifier;
