@@ -1,0 +1,59 @@
+/* BODY */
+body {
+    margin: 0;
+}
+/* HEADER */
+header {
+    position: fixed;
+    background-color: #1FAE9B;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header div {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* SECTION */
+section {
+    padding-top: 60px;
+    height: 1000px;
+    background-color: black;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 5px;
+    background-color: #1FAE9B;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+}
+
+.test {
+    display: inline-block;
+    margin: 0;
+}
+
+.img  {
+    width: 30px;
+    height: 30px;
+}
