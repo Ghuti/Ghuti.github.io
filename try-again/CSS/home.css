@@ -46,6 +46,7 @@ section {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     
 }
 
@@ -54,9 +55,20 @@ span {
     color: orange;
 }
 
+spar {
+    font-size: 25px;
+}
+
+.space {
+    padding-bottom: 40px;
+}
+
 section p {
     font-size: 20px;
     margin: 20px;
+}
+
+section a img {
     padding-bottom: 50px;
 }
 
