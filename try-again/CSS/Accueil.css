@@ -61,6 +61,26 @@ section p {
     padding-bottom: 50px;
 }
 
+/* Responcive section*/
+
+@media screen and (max-width: 340px) {
+    section {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 800px) {
+    section {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .iatg {
+        width: 100%;
+    }
+}
+
 /* FOOTER */
 
 footer {
