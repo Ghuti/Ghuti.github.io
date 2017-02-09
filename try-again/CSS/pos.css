@@ -59,7 +59,7 @@ span {
 section p {
     font-size: 20px;
     margin: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 ul {
@@ -68,6 +68,10 @@ ul {
 
 spar {
     font-size: 25px;
+}
+
+.jump {
+    padding-bottom: 50px;
 }
 
 
