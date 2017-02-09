@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <link href="CSS/Accueil.css" rel="stylesheet">
+        <link href="CSS/AvA.css" rel="stylesheet">
         <title>AvA - Try Again</title>
     </head>
     <body>
@@ -52,15 +52,59 @@
         </header>
         <section>
             <div>
-                <p> piou</p>
-                <p> piou</p>
-                <p> piou</p>
-                <p> piou</p>
-                <p> piou</p>
-                <p> piou</p>
-                <p> piou</p>
-                <p> piou</p>
+                <p><span>AvA de Prévue</span></p>
+                <p><spar>Zone: Lacs enchantés.</spar></p>
+                <p>Début dans: 
+                    <div class="counter">
+					    <spat class="d"></spat>
+					    <spat class="h"></spat>
+					    <spat class="m"></spat>
+					    <spat class="s"></spat>
+				    </div>
+                </p>
+                <p></p>
+                <p><spar>Zone: --.</spar></p>
+                <p>Début dans: --/--/--/--</p>
+                <p></p>
+                <p><spar>Zone: --.</spar></p>
+                <p>Début dans: --/--/--/--</p>
+                <p></p>
+                <p><spar>Zone: --.</spar></p>
+                <p>Début dans: --/--/--/--</p>
+                <p></p>
+                <p><spar>Zone: --.</spar></p>
+                <p>Début dans: --/--/--/--</p>
             </div>
+            
+            
+            
+            <!-- Script -->
+            
+            
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		    <script>
+			    var target = new Date(2017, 1, 9, 10, 30, 0, 0);
+			    function tick() {
+				var now = new Date();
+				var diff = Math.floor((target.getTime() - now.getTime())/1000);
+				
+				var seconds = diff % 60;
+				var minutes = Math.floor(diff%3600 / 60);
+				var hours = Math.floor(diff%86400 / 3600);
+				var days = Math.floor(diff / (60 * 60 * 24));
+				
+				$('.counter .d').html(days);
+				$('.counter .h').html(hours<10?"0"+hours:hours);
+				$('.counter .m').html(minutes<10?"0"+minutes:minutes);
+				$('.counter .s').html(seconds<10?"0"+seconds:seconds);
+			    }
+		
+			    $(document).ready(function() {
+				window.setInterval(tick, 1000);
+				tick();
+			    });
+			    
+		    </script>
         </section>
     </body>
     <footer>

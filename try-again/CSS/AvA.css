@@ -59,7 +59,7 @@ span {
 section p {
     font-size: 20px;
     margin: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 ul {
@@ -70,6 +70,21 @@ spar {
     font-size: 25px;
 }
 
+
+/* Script */
+
+spat {
+    font-size: 25px;
+    color: orange;
+}
+
+/*.spor {
+    padding-bottom: 50px;
+}*/
+
+.counter > spat:not(:last-of-type):after {
+				content: " : ";
+			}
 
 /* Responcive section*/
 
