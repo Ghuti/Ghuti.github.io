@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <link href="CSS/Accueil.css" rel="stylesheet">
+        <link href="CSS/pos.css" rel="stylesheet">
         <title>Les Portails - Try Again</title>
     </head>
     <body>
@@ -54,21 +54,157 @@
             <div>
                 <p><span>Enutrosor</span></p>
                 <p>POS: [--/--]</p>
-                <p>Temps restant: --:--:-- </p>
+                <p>Temps restant:</p>
+                <div class="enutrosor">
+					<spat class="d"></spat>
+					<spat class="h"></spat>
+					<spat class="m"></spat>
+					<spat class="s"></spat>
+				</div>
                 <p>Buff: --</p>
                 <p><span>Scrambad</span></p>
                 <p>POS: [--/--]</p>
-                <p>Temps restant: --:--:-- </p>
+                <p>Temps restant:</p> 
+                <div class="Scrambad">
+					<spat class="d"></spat>
+					<spat class="h"></spat>
+					<spat class="m"></spat>
+					<spat class="s"></spat>
+				</div>
                 <p>Buff: --</p>
                 <p><span>Ecaflipus</span></p>
                 <p>POS: [--/--]</p>
-                <p>Temps restant: --:--:-- </p>
+                <p>Temps restant: </p>
+                <div class="Ecaflipus">
+					<spat class="d"></spat>
+					<spat class="h"></spat>
+					<spat class="m"></spat>
+					<spat class="s"></spat>
+				</div>
                 <p>Buff: --</p>
                 <p><span>Xelorium</span></p>
-                <p>POS: [--/--]</p>
-                <p>Temps restant: --:--:-- </p>
-                <p>Buff: --</p>
+                <p>POS: [-5/7]</p>
+                <p>Utilisation restante: 15 à 13h31</p>
+                <p>Temps restant: </p>
+                <div class="Xelorium">
+		    		<spat class="d"></spat>
+			    	<spat class="h"></spat>
+			    	<spat class="m"></spat>
+				    <spat class="s"></spat>
+				</div>
+                <p>Buff: Saute-bouftou</p>
             </div>
+            
+            <!-- Script -->
+            
+            <!-- enutrosor -->
+            
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		    <script>
+			    var target = new Date(2018, 0, 0, 0, 0, 0, 0);
+			    function tick() {
+				var now = new Date();
+				var diff = Math.floor((target.getTime() - now.getTime())/1000);
+				
+				var seconds = diff % 60;
+				var minutes = Math.floor(diff%3600 / 60);
+				var hours = Math.floor(diff%86400 / 3600);
+				var days = Math.floor(diff / (60 * 60 * 24));
+				
+				$('.enutrosor .d').html(days);
+				$('.enutrosor .h').html(hours<10?"0"+hours:hours);
+				$('.enutrosor .m').html(minutes<10?"0"+minutes:minutes);
+				$('.enutrosor .s').html(seconds<10?"0"+seconds:seconds);
+			    }
+		
+			    $(document).ready(function() {
+				window.setInterval(tick, 1000);
+				tick();
+			    });
+			    
+		    </script>
+            
+            <!-- Scrambad -->
+            
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		    <script>
+			    var targets = new Date(2019, 0, 0, 0, 0, 0, 0);
+			    function ticks() {
+				var nows = new Date();
+				var diffs = Math.floor((targets.getTime() - nows.getTime())/1000);
+				
+				var second = diffs % 60;
+				var minute = Math.floor(diffs%3600 / 60);
+				var hour = Math.floor(diffs%86400 / 3600);
+				var day = Math.floor(diffs / (60 * 60 * 24));
+				
+				$('.Scrambad .d').html(day);
+				$('.Scrambad .h').html(hour<10?"0"+hour:hour);
+				$('.Scrambad .m').html(minute<10?"0"+minute:minute);
+				$('.Scrambad .s').html(second<10?"0"+second:second);
+			    }
+		
+			    $(document).ready(function() {
+				window.setInterval(ticks, 1000);
+				ticks();
+			    });
+			    
+		    </script>
+            
+            <!-- Ecaflipus -->
+            
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		    <script>
+			    var targeta = new Date(2020, 0, 0, 0, 0, 0, 0);
+			    function ticka() {
+				var nowa = new Date();
+				var diffa = Math.floor((targeta.getTime() - nowa.getTime())/1000);
+				
+				var secondsa = diffa % 60;
+				var minutesa = Math.floor(diffa%3600 / 60);
+				var hoursa = Math.floor(diffa%86400 / 3600);
+				var daysa = Math.floor(diffa / (60 * 60 * 24));
+				
+				$('.Ecaflipus .d').html(daysa);
+				$('.Ecaflipus .h').html(hoursa<10?"0"+hoursa:hoursa);
+				$('.Ecaflipus .m').html(minutesa<10?"0"+minutesa:minutesa);
+				$('.Ecaflipus .s').html(secondsa<10?"0"+secondsa:secondsa);
+			    }
+		
+			    $(document).ready(function() {
+				window.setInterval(ticka, 1000);
+				ticka();
+			    });
+			    
+		    </script>
+            
+            <!-- Xelorium -->
+            
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		    <script>
+			    var targetx = new Date(2017, 1, 10, 13, 32, 0, 0);
+			    function tickx() {
+				var nowx = new Date();
+				var diff = Math.floor((targetx.getTime() - nowx.getTime())/1000);
+				
+				var secondsx = diff % 60;
+				var minutesx = Math.floor(diff%3600 / 60);
+				var hoursx = Math.floor(diff%86400 / 3600);
+				var daysx = Math.floor(diff / (60 * 60 * 24));
+				
+				$('.Xelorium .d').html(daysx);
+				$('.Xelorium .h').html(hoursx<10?"0"+hoursx:hoursx);
+				$('.Xelorium .m').html(minutesx<10?"0"+minutesx:minutesx);
+				$('.Xelorium .s').html(secondsx<10?"0"+secondsx:secondsx);
+			    }
+		
+			    $(document).ready(function() {
+				window.setInterval(tickx, 1000);
+				tickx();
+			    });
+			    
+		    </script> 
+            
         </section>
         <footer>
             <div class="test">

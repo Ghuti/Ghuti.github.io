@@ -1,0 +1,130 @@
+html {
+    background-color: #5DA0A1;
+}
+
+/* BODY */
+body {
+    margin: 0;
+}
+/* HEADER */
+header {
+    position: fixed;
+    background-color: #2E2E2E;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header div {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: #fff;
+}
+
+
+/* Header: hover */
+
+header div div:hover {
+    background: #6E6E6E;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* SECTION */
+section {
+    padding-top: 60px;
+    height: auto;
+    background-color: black;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+span {
+    font-size: 35px;
+    color: orange;
+}
+
+section p {
+    font-size: 20px;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+ul {
+    font-size: 20px; 
+}
+
+spar {
+    font-size: 25px;
+}
+
+
+/* Script */
+
+spat {
+    font-size: 25px;
+    color: orange;
+}
+
+/*.spor {
+    padding-bottom: 50px;
+}*/
+
+ spat:not(:last-of-type):after {
+		content: " : ";
+	}
+
+/* Responcive section*/
+
+@media screen and (max-width: 340px) {
+    section {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 800px) {
+    section {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .iatg {
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 5px;
+    background-color: #2E2E2E;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+}
+
+
+.test {
+    display: inline-block;
+    margin: 0;
+}
+
+.img  {
+    width: 30px;
+    height: 30px;
+}
+
