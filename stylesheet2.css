@@ -1,0 +1,117 @@
+html {
+    background-color: #5DA0A1;
+}
+
+/* BODY */
+body {
+    margin: 0;
+}
+/* HEADER */
+header {
+    position: fixed;
+    background-color: #2E2E2E;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color:#fff;
+}
+
+header div {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Header: hover */
+
+header div div:hover {
+    background: #6E6E6E;
+}
+
+
+
+/* SECTION */
+main {
+    padding-top: 60px;
+    height: auto;
+    background-color: black;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+span {
+    font-size: 35px;
+    color: orange;
+}
+
+main p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+ul {
+    font-size: 20px; 
+    padding-top:30px;
+}
+
+spar {
+    font-size: 25px;
+}
+
+
+/* Responcive section*/
+
+@media screen and (max-width: 340px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 800px) {
+    main {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    main {
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 5px;
+    background-color: #2E2E2E;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+}
+
+footer div {
+    display:inline-block;
+}
+
+
+.test {
+    display: inline-block;
+    margin: 0;
+}
+
+.img  {
+    width: 30px;
+    height: 30px;
+}
+
+.coin {
+    padding-top:20px;
+}
