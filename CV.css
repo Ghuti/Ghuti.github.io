@@ -2,18 +2,42 @@ html {
     background-color: #E26565;
 }
 
+body {
+    background-color: #ffffff;
+}
+
+/******** HEADER ********/
 header {
     background-color: #F65626;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }
 
-body {
+header div {
+    display: inline-block;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+header div :hover {
+    background-color: #ffffff;
+}
+
+/**/
+section {
     background-color: #A56596;
+    margin-top: 105px;
 }
 
+/**/
 main {
     background-color: #B21456;
 }
 
+/**/
 Footer {
-    background-color: #C123456;
+    background-color: yellow;
 }
