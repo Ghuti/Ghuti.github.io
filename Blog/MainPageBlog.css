@@ -69,6 +69,11 @@ main div p {
     padding-right: 3%;
 }
 
+//*** img ***//
+main div div img {
+    width: 100%
+}
+
 //*** footer ***//
 footer {
     background-color: #fff;
