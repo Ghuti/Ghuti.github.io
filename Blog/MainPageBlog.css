@@ -50,13 +50,15 @@ main {
 }
 
 h1 {
-    texte-align: center;
     font-familly: "Blacksword";
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 main div p {
     font-familly: "Blacksword";
-    width: 95%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 input[type=text], select {
