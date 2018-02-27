@@ -4,6 +4,11 @@ html {
     width: 100%;
 }
 
+@font-face {
+    font-familly: "Blacksword";
+    src: url('Blacksword.otf');
+}
+
 header {
     position: fixed;
     background-color: #2E2E2E;
@@ -47,10 +52,8 @@ main {
 h1 {
     texte-align: center;
     font-familly: "Blacksword";
-    src: url('Blacksword.otf');
 }
 
 main div p {
     font-familly: "Blacksword";
-    src: url('Blacksword.otf');
 }
