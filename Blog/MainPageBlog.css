@@ -4,12 +4,14 @@ html {
 }
 
 //*** police ***//
+
 @font-face {
     font-familly: "Blacksword";
     src: url('Blacksword.otf');
 }
 
 //*** header ***//
+
 header {
     position: fixed;
     background-color: #2E2E2E;
@@ -38,6 +40,7 @@ a:hover {
 }
 
 //*** main ***//
+
 main {
     background-color: #fff;
     padding-top: 50px;
@@ -70,11 +73,13 @@ main div p {
 }
 
 //*** img ***//
+
 main div div img {
     width: 100%
 }
 
 //*** footer ***//
+
 footer {
     background-color: #fff;
     padding-top: 50px;
@@ -84,6 +89,7 @@ footer {
 }
 
 //*** coms ***//
+
 input[type=textarea], select {
     width: 100%;
     padding: 12px 20px;
