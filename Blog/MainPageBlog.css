@@ -51,8 +51,13 @@ main {
 
 h1 {
     font-familly: "Blacksword";
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+h3 {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 main div p {
