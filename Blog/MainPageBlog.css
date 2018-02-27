@@ -66,6 +66,14 @@ main div p {
     padding-right: 3%;
 }
 
+footer {
+    background-color: #fff;
+    padding-top: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
