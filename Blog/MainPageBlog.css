@@ -49,6 +49,11 @@ main {
     right: 10px;
 }
 
+.comm {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 h1 {
     font-familly: "Blacksword";
     padding-left: 1%;
@@ -74,7 +79,7 @@ footer {
     margin-right: auto;
 }
 
-input[type=text], select {
+input[type=textarea], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
