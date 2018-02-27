@@ -4,11 +4,13 @@ html {
     width: 100%;
 }
 
+//*** police ***//
 @font-face {
     font-familly: "Blacksword";
     src: url('Blacksword.otf');
 }
 
+//*** header ***//
 header {
     position: fixed;
     background-color: #2E2E2E;
@@ -36,6 +38,7 @@ a:hover {
     color: #D55806;
 }
 
+//*** main ***//
 main {
     background-color: #fff;
     padding-top: 50px;
@@ -49,9 +52,6 @@ main {
     right: 10px;
 }
 
-.comm {
-    padding-left: 3%;
-    padding-right: 3%;
 }
 
 h1 {
@@ -71,6 +71,12 @@ main div p {
     padding-right: 3%;
 }
 
+//*** image ***//
+img {
+    width: 100%;
+}
+
+//***comment part***//
 footer {
     background-color: #fff;
     padding-top: 50px;
@@ -103,4 +109,8 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+.comm {
+    padding-left: 3%;
+    padding-right: 3%;
 
