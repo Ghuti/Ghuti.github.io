@@ -75,7 +75,8 @@ main div p {
 /*** img ***/
 
 main div div img {
-    width: 98%
+    width: 98%;
+    position: center;
 }
 
 /*** footer ***/
