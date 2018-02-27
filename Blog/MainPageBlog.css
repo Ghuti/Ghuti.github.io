@@ -37,6 +37,8 @@ main {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    font-familly: "Blacksword";
+    src: url('Blacksword.otf');
 }
 
 .conec {
