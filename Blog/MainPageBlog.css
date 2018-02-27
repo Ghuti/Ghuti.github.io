@@ -3,14 +3,14 @@ html {
     width: 100%;
 }
 
-//*** police ***//
+/*** police ***/
 
 @font-face {
     font-familly: "Blacksword";
     src: url('Blacksword.otf');
 }
 
-//*** header ***//
+/*** header ***/
 
 header {
     position: fixed;
@@ -39,7 +39,7 @@ a:hover {
     color: #D55806;
 }
 
-//*** main ***//
+/*** main ***/
 
 main {
     background-color: #fff;
@@ -72,13 +72,13 @@ main div p {
     padding-right: 3%;
 }
 
-//*** img ***//
+/*** img ***/
 
 main div div img {
     width: 100%
 }
 
-//*** footer ***//
+/*** footer ***/
 
 footer {
     background-color: #fff;
@@ -88,7 +88,7 @@ footer {
     margin-right: auto;
 }
 
-//*** coms ***//
+/*** coms ***/
 
 input[type=textarea], select {
     width: 100%;
