@@ -1,5 +1,5 @@
 html {
-    background-image: url("background.jpg");
+    background: #585858 url("background.jpg") no-repeat top;
     position: fixed;
     width: 100%;
 }
