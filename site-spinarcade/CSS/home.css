@@ -1,0 +1,155 @@
+
+html {
+    background: #fff url(../fond.png);
+}
+
+/* BODY */
+body {
+    margin: 0;
+}
+/* HEADER */
+header {
+    position: fixed;
+    background-color: #2E2E2E;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header div {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+a {
+    color: #fff;
+}
+
+
+/* Header: hover */
+
+header div div:hover {
+    background: #ff741f; /*#6E6E6E;*/
+}
+
+a:hover {
+    color: #000000;
+}
+
+/* SECTION */
+section {
+    padding-top: 100px;
+    height: auto;
+    width: 80%;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background: #000000 url(../IMG/LogoSpin4.png) fixed center no-repeat;
+}
+
+section div {
+    text-align: center;
+}
+
+section div div{
+    margin:5%;
+    display: inline-block;
+    height:500px;
+    width:340px;
+    background-color: rgba(109, 109, 109, 0.7);
+}
+
+
+/* TITRE */
+span {
+    font-size: 60px;
+    color: #ff741f;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+/* SOUS-TITRE*/
+spar {
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+/* TEXTE*/
+spat {
+    font-size: 20px;
+}
+
+.space {
+    padding-bottom: 40px;
+}
+
+section p {
+    margin: 20px;
+}
+
+section a img {
+    padding-bottom: 50px;
+}
+
+/* Responcive section*/
+
+@media screen and (max-width: 449px) {
+    section {
+        width: 100%;
+    }
+	
+	section div div{
+		margin:1%;
+		width: 98%;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 800px) {
+    section {
+        width: 85%;
+    }
+	
+	section div div{
+		margin:1%;
+	}
+}
+
+@media screen and (max-width: 1360px) {
+    .iatg {
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 10px;
+    background-color: #2E2E2E;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+}
+
+
+.test {
+    display: inline-block;
+    margin: 0;
+}
+
+.img  {
+    width: 30px;
+    height: 30px;
+}
+
+.twitch {
+    width:65%;
+    margin: 1%;
+}    
+
