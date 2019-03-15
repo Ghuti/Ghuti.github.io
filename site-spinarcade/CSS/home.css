@@ -48,7 +48,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    background: #000000 url(../IMG/LogoSpin4.png) fixed center no-repeat;
+    background: #000000 /*url(../IMG/LogoSpin4.png) fixed center no-repeat*/;
 }
 
 section div {
@@ -155,4 +155,8 @@ footer {
 
 .active {
 	background-color: #ff741f !important;	
+}
+
+dp {
+	text-decoration: none;
 }
