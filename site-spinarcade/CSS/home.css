@@ -73,10 +73,24 @@ span {
     font-weight: 900;
 }
 
+dp1 {
+	text-decoration: none !important;
+	font-size: 60px;
+    color: #ff741f;
+    text-align: center;
+    font-weight: 900;
+}
+
 /* SOUS-TITRE*/
 spar {
     font-size: 35px;
     text-decoration: underline;
+    font-weight: 900;
+}
+
+dp2 {
+	font-size: 35px;
+    text-decoration: none;
     font-weight: 900;
 }
 
