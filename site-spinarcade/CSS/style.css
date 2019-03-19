@@ -35,7 +35,7 @@ header div div:hover {
     background: #ff741f; /*#6E6E6E;*/
 }
 
-a:hover {
+header a:hover {
     color: #000000;
 }
 
@@ -112,6 +112,10 @@ section p {
 
 section a img {
     padding-bottom: 50px;
+}
+
+section a:hover {
+    color: #ff741f;
 }
 
 /* Responcive section*/
