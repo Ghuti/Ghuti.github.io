@@ -207,3 +207,19 @@ footer {
 .head {
 	width: 90%;
 }
+
+@font-face {
+	font-family: "SLANT";
+	src: url('FONT/SLANT.TTF');
+}
+
+@font-face {
+	font-family : "blocktastic";
+	src: url('FONT/blocktastic.otf');
+}
+
+@font-face {
+	font-family : "blocktastic";
+	font-style: italic;
+	src: url('FONT/blocktastic-itl.otf');
+}
