@@ -71,6 +71,7 @@ section div {
 
 /* TITRE */
 span {
+	font-family: SLANT;
     font-size: 60px;
     color: #ff741f;
     text-decoration: underline;
