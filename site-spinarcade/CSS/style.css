@@ -18,7 +18,7 @@ header {
     right: 0px;
 }
 
-#header-inner { margin:0 auto; padding:0; width:80%; display: inline-block;}
+#header-inner { margin:0 auto; padding:0; width:80%; }
 
 #top-nav { margin:0 auto; padding:0px 0 0; height:50px; float:left;}
 #top-nav ul { list-style:none; padding:0; height:50px; float:left;}
