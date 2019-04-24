@@ -18,27 +18,25 @@ header {
     right: 0px;
 }
 
-header div {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-}
+#header-inner { margin:0 auto; padding:0; width:80%;}
 
-a {
-    color: #fff;
-}
+#top-nav { margin:0 auto; padding:0px 0 0; height:50px; float:left;}
+#top-nav ul { list-style:none; padding:0; height:50px; float:left;}
+#top-nav ul li { margin:0; padding:0 0 0 8px; float:left;}
+#top-nav ul li a { display:block; margin:0; padding:8px 20px; color:#fff; text-decoration:none;}
+#top-nav ul li.active a, #top-nav ul li a:hover { color:#000000;}
 
+	a{
+		color:#fff;
+	}
 
 /* Header: hover */
 
-header div div:hover {
+header div div ul li:hover {
     background: #ff741f; /*#6E6E6E;*/
 }
 
-header a:hover {
-    color: #000000;
-}
+
 
 /* SECTION */
 section {
@@ -131,6 +129,8 @@ section a:hover {
 		margin:1%;
 		width: 98%;
 	}
+	
+	#header-inner {width:100% !important;}
 }
 
 @media screen and (min-width: 450px) and (max-width: 800px) {
@@ -141,6 +141,8 @@ section a:hover {
 	section div div{
 		margin:1%;
 	}
+	
+	#header-inner {width:85% !important;}
 }
 
 @media screen and (max-width: 1570px) {
