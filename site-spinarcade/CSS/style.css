@@ -30,6 +30,12 @@ header {
 		color:#fff;
 	}
 
+#header-inner2 { margin:0 auto; padding:0; width:10%; }
+
+header div {
+	display: inline-block;
+}
+
 /* Header: hover */
 
 header div div ul li:hover {
