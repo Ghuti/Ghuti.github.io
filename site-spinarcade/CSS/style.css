@@ -234,4 +234,5 @@ footer {
 
 .counter > spar:not(:last-of-type):after {
 	content: " : ";
+	text-decoration: none !important;
 }
