@@ -238,6 +238,6 @@ cont {
     font-weight: 900;
 }
 
-.counter > spar:not(:last-of-type):after {
+.counter > cont:not(:last-of-type):after {
 	content: " : ";
 }
