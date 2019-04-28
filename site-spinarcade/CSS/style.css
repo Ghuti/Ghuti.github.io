@@ -20,8 +20,8 @@ header {
 
 #header-inner { margin:0 auto; padding:0; width:80%; }
 
-#top-nav { margin:0 auto; padding:0px 0 0; height:60px; float:left;}
-#top-nav ul { list-style:none; padding:0; height:60px; float:left;}
+#top-nav { margin:0 auto; padding:0px 0 0; height:70px; float:left;}
+#top-nav ul { list-style:none; padding:0; height:70px; float:left;}
 #top-nav ul li { margin:0; padding:0 0 0 8px; float:left;}
 #top-nav ul li a { display:block; margin:0; padding:8px 20px; color:#fff; text-decoration:none; font-size: 20px;}
 #top-nav ul li.active a, #top-nav ul li a:hover { color:#000000;}
