@@ -232,6 +232,6 @@ footer {
 	src: url('FONT/blocktastic-itl.otf');
 }
 
-.counter > span:not(:last-of-type):after {
+.counter > spar:not(:last-of-type):after {
 	content: " : ";
 }
