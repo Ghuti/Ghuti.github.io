@@ -231,3 +231,7 @@ footer {
 	font-style: italic;
 	src: url('FONT/blocktastic-itl.otf');
 }
+
+.counter > span:not(:last-of-type):after {
+	content: " : ";
+}
