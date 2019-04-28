@@ -232,7 +232,12 @@ footer {
 	src: url('FONT/blocktastic-itl.otf');
 }
 
+/*Counter*/
+cont {
+    font-size: 35px;
+    font-weight: 900;
+}
+
 .counter > spar:not(:last-of-type):after {
 	content: " : ";
-	text-decoration: none !important;
 }
