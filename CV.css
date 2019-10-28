@@ -7,10 +7,6 @@ body {
 		animation-iteration-count: infinite;
 }
 
-.rainbow{
-		animation: rainbow 4.5s linear;
-		animation-iteration-count: infinite;
-}
 
 @keyframes rainbow-bg{
 		100%,0%{
@@ -22,12 +18,7 @@ body {
 		}
 }
 
-@keyframes rainbow{
-		100%,0%{
-			color: rgba(0,255,0,0.4);
-		}
 
-		50%{
-			color: rgba(255,0,0,0.4);
-		}
+.my-prog {
+	margin-bottom: 10px;
 }
