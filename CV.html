@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name='viewport' content="width=device-width">
-    <title>CV-Yannick.R</title>
+    <title id="blip">CV-Yannick.R</title>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="CV.css">
@@ -16,11 +16,11 @@
     <nav class="navbar navbar-dark bg-dark text-white">
       <div class="container">
         <div class="row">
-          <div class="col col-md-3.5">
-            <img class="yolo" src="img/moi.jpg" alt="Yannick REMY" style="width:150px">
-          </div>
           <div class="col col-md-auto">
-            <h1>Yannick REMY </h1>
+            <img src="moi.jpg" alt="Yannick REMY" style="width:150px">
+          </div>
+          <div>
+            <h1>Yannick REMY<span class="rage" id="rage"></span> </h1>
             <!--<h2>Dévellopeur Web</h2>-->
             <h4>22 ans</h4>
             <h4>Permis B</h4>
@@ -103,6 +103,37 @@
         <p>Copyright © Yannick.R</p>
       </div>
     </footer>
+
+    <script>
+      var rage = document.getElementById("rage");
+      flip = 0;
+      setInterval(function () {
+        if (flip == 0) {
+          flip += 1;
+          rage.innerHTML = " ┬─┬ノ(ಠ_ಠノ)";
+        }
+        else if ( flip == 1) {
+          flip += 1
+          rage.innerHTML = " (╯°□°）╯︵ ┻━┻";
+        }
+        else if ( flip == 2){
+         flip += 1;
+         rage.innerHTML = " ¯\_(ツ)_/¯";
+        }
+        else {
+          flip = flip -= 3;
+          rage.innerHTML = " (ノಠ ∩ಠ)ノ彡( \o°o)\ ";
+        }
+      }, 1000);
+    </script>
+    <script type="text/javascript">
+      var blip = document.getElementById("blip")
+      blop = 0;
+      setInterval(function () {
+        blop +=1;
+        blip.innerHTML = "CV-Yannick.R " + blop + "s";
+      },1000);
+    </script>
 
   </body>
 </html>
