@@ -1,43 +1,33 @@
-html {
-    background-color: #E26565;
-}
-
 body {
-    background-color: #ffffff;
+	font-family: 'Permanent Marker', cursive;
 }
 
-/******** HEADER ********/
-header {
-    background-color: #F65626;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+.rainbow-bg{
+		animation: rainbow-bg 4.5s linear;
+		animation-iteration-count: infinite;
 }
 
-header div {
-    display: inline-block;
-    margin-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px
+.rainbow{
+		animation: rainbow 4.5s linear;
+		animation-iteration-count: infinite;
 }
 
-header div :hover {
-    background-color: #ffffff;
+@keyframes rainbow-bg{
+		100%,0%{
+			background-color: rgba(0,255,0,0.6);
+		}
+
+		50%{
+			background-color: rgba(255,255,255,0.6);
+		}
 }
 
-/**/
-section {
-    background-color: #A56596;
-    margin-top: 105px;
-}
+@keyframes rainbow{
+		100%,0%{
+			color: rgba(0,255,0,0.4);
+		}
 
-/**/
-main {
-    background-color: #B21456;
-}
-
-/**/
-Footer {
-    background-color: yellow;
+		50%{
+			color: rgba(255,0,0,0.4);
+		}
 }
