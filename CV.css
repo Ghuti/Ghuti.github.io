@@ -10,7 +10,7 @@ body {
 
 @keyframes rainbow-bg{
 		100%,0%{
-			background-color: rgba(0,255,0,0.6);
+			background-color: rgba(150,255,150,0.6);
 		}
 
 		50%{
@@ -21,4 +21,9 @@ body {
 
 .my-prog {
 	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.rage {
+	font-size: 0.5em;
 }
