@@ -28,27 +28,27 @@
 	<script src="clic.js"></script>
 	<!--    OLD VERSION   -->
 	<!--	<button id="b3"> test </button>
-    
+
     <script>
 		var b3 = document.getElementById("b3");
 		var test = document.getElementById("test");
 		var teste = document.getElementById("teste");
-		
+
 		b3.onclick = function() {
 			test.style.background = "#003A7C";
 			teste.style.background = "#003A7C";
 		};
     </script> -->
-    
+
    <!-- button color -->
-    
+
 		<button id="b3"> light</button>
-    
+
     <script>
 		var b3 = document.getElementById("b3");
 		var test = document.getElementById("test");
 		var teste = document.getElementById("teste");
-		
+
 		blop = 0;
 		b3.onclick = function() {
 			if (blop == 0) {
@@ -62,26 +62,26 @@
 				teste.style.background = "#3FC4C0"; //#fff
 				blop = blop -= 1;
 				b3.innerHTML = "light";
-			} 
+			}
 		}
     </script>
-    
+
     <!-- Animation Snow -->
-    
+
 	<script src="snow.js"></script>
     		<script type="text/javascript">
 			window.onload = function(){
 				snow.init(25);
 			};
 	</script>
-	
 
 
-	
-	
+
+
+
 	<!-- decompte -->
-		
-			
+
+
 	<audio autoplay loop><source src="nowel.mp3" type="audio/mpeg"></audio>
 		<div class="decompte">
 			<div>
@@ -94,38 +94,38 @@
 				</div>
 			</div>
 		</div>
-	
+
 		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 		<script>
-			var target = new Date(2017, 11, 25, 0, 0, 0, 0);
+			var target = new Date(2019, 11, 25, 0, 0, 0, 0);
 			function tick() {
 				var now = new Date();
 				var diff = Math.floor((target.getTime() - now.getTime())/1000);
-				
+
 				var seconds = diff % 60;
 				var minutes = Math.floor(diff%3600 / 60);
 				var hours = Math.floor(diff%86400 / 3600);
 				var days = Math.floor(diff / (60 * 60 * 24));
-				
+
 				$('.counter .d').html(days);
 				$('.counter .h').html(hours<10?"0"+hours:hours);
 				$('.counter .m').html(minutes<10?"0"+minutes:minutes);
 				$('.counter .s').html(seconds<10?"0"+seconds:seconds);
 			}
-		
+
 			$(document).ready(function() {
 				window.setInterval(tick, 1000);
 				tick();
 			});
 		</script>
 	</body>
-		
-    
- 
-    
-    
-    
-    
+
+
+
+
+
+
+
   <footer class="gome">
     <div>
       <a href="https://ghuti.github.io/Game/game.html">
@@ -135,9 +135,9 @@
         </div>
       </a>
     </div>
-    
+
   </footer>
-  
-  
+
+
     </body>
 </htlm>
