@@ -36,3 +36,8 @@ body {
 .aaa:hover {
 	color: #000066;
 }
+
+.aa {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
