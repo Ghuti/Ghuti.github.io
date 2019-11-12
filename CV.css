@@ -28,3 +28,11 @@ body {
 .rage {
 	font-size: 0.5em;
 }
+
+.aaa {
+	color: green;
+}
+
+.aaa:hover {
+	color: green;
+}
