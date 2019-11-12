@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="Description" content="Author: ghutilife CV-Yannick-REMY">
     <meta name='viewport' content="width=device-width">
     <title id="blip">CV-Yannick.R</title>
     <link rel="canonical" href="https://ghuti.github.io/CV/">
@@ -105,6 +106,8 @@
         <div class="progress my-prog">
           <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="15" aria-valumin="0" aria-valuemax="100" style="width: 15%">MySql</div>
         </div>
+
+        <!--<button type="button" name="button" id="gf">WAAAZAAAAAAAA</button>-->
       </div>
     </div>
 
@@ -116,6 +119,14 @@
       </div>
     </footer>
 
-  </body>
+    <script async type="text/javascript">
+      var blip = document.getElementById("blip")
+      blop = 0;
+      setInterval(function () {
+        blop +=1;
+        blip.innerHTML = "CV-Yannick.R " + blop + "s";
+      },1000);
+    </script>
 
+  </body>
 </html>
